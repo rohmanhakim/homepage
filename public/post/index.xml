@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://rohmanhakim.github.io/homepage/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rohmanhakim.github.io/homepage/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Include Subfolders in Windows 11 Wallpaper Slideshow</title>
-      <link>http://localhost:1313/post/include-subfolders-in-windows-11-wallpaper-slideshow/</link>
+      <link>https://rohmanhakim.github.io/homepage/post/include-subfolders-in-windows-11-wallpaper-slideshow/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/include-subfolders-in-windows-11-wallpaper-slideshow/</guid>
+      <guid>https://rohmanhakim.github.io/homepage/post/include-subfolders-in-windows-11-wallpaper-slideshow/</guid>
       <description>&lt;p&gt;Windows 11 has a feature that enables us to change desktop wallpapers at specified intervals. However, by default, it only scans pictures in the root directory of our choice and doesn&amp;rsquo;t allow us to include its subfolders. To change this, we need to make changes to the Windows 11 system.&lt;/p&gt;&#xA;&lt;h1 id=&#34;install-link_nto1-powershell-script&#34;&gt;Install link_Nto1 PowerShell Script&lt;/h1&gt;&#xA;&lt;p&gt;link_Nto1 is a PowerShell script that helps us create hard/symbolic links to all files of a specified source folder inside a specified destination folder. In the context of this post, we can specify our wallpapers folder (which contains subfolders), and then the script will make symbolic links to all pictures in its subfolders. The script then places those symbolic links in certain folders which we specify, then we can make Windows 11 use that folder instead of our original wallpapers folder.&lt;/p&gt;</description>
     </item>
   </channel>
