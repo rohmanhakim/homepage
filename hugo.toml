@@ -1,6 +1,6 @@
 baseURL = "https://rohmanhakim.github.io/homepage/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Arif's Homepage"
 theme = 'xmin'
 [params]
   customCSS = ["css/custom.css"]
