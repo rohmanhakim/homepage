@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.article-meta {
+  text-align: start;
+  background: transparent;
+}
+.title {
+  font-size: 1.5em;
+}
+.post-titles {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
