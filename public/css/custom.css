@@ -1,5 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+}
+main p {
+  font-size: 1.2em;
 }
 .article-meta {
   text-align: start;
@@ -12,4 +16,5 @@ body {
   list-style: none;
   padding-left: 0;
   padding-right: 0;
+  font-size: 1.2em;
 }
