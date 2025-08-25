@@ -5,6 +5,9 @@ body {
 main p {
   font-size: 1.2em;
 }
+footer {
+  min-height: 100px;
+}
 .article-meta {
   text-align: start;
   background: transparent;
@@ -12,9 +15,42 @@ main p {
 .title {
   font-size: 1.5em;
 }
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-container h1 {
+  flex-grow: 1;
+}
+.header-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+.header-container ul li {
+  padding-right: 12px;
+}
 .post-titles {
   list-style: none;
   padding-left: 0;
   padding-right: 0;
   font-size: 1.2em;
+}
+
+@media (max-width: 720px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start; /* so h1 and ul stack neatly */
+  }
+
+  .header-container h1 {
+    flex-grow: 0; /* don’t force it to stretch */
+    width: 100%; /* optional: make it full width */
+  }
+
+  .header-container ul {
+    margin-top: 0.5rem; /* space between h1 and ul */
+  }
 }
