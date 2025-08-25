@@ -20,7 +20,7 @@ Here is the quick specification:
 - **Battery**: 78 Wh
 
 You can read the benchmark for this laptop on these websites:
-- [Phoronix](https://www.phoronix.com/review/amd-ryzen-ai-9-365)
+- [Phoronix](https://www.phoronix.com/review/amd-ryzen-ai-9-hx-370)
 - [Phoronix 2](https://www.phoronix.com/review/asus-zenbook-s16-power)
 - [RTINGS](https://www.rtings.com/laptop/reviews/asus/zenbook-s-16-um5606-2024)
 - [Tom's Hardware](https://www.tomshardware.com/laptops/gaming-laptops/asus-zenbook-s16-amd-ryzen-ai-9-hx-370-review)
