@@ -31,7 +31,7 @@ PS> mkdir desktop_slideshow
 Suppose in the `wallpapers` folder we have these subfolders: `animals`, `floral`, `landscapes`, then execute the script by passing these arguments:
 
 ```powershell
-PS> link_Nto1.ps1 desktop_wallpapers animals,floral,landscapes
+PS> link_Nto1.ps1 desktop_slideshow animals,floral,landscapes
 ```
 
 ⚠️ If you get this error:
