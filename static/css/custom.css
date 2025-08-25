@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 960px;
 }
-main p {
+main p, main li {
   font-size: 1.2em;
 }
 footer {
@@ -37,6 +37,9 @@ footer {
   padding-left: 0;
   padding-right: 0;
   font-size: 1.2em;
+}
+.post-titles li {
+  padding-bottom: 8px;
 }
 
 @media (max-width: 720px) {
