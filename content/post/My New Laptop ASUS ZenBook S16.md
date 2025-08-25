@@ -12,7 +12,7 @@ Honestly, it's because I got a neat deal in my local online store ([Blibli](http
 # What's the spec
 Here is the quick specification:
 
-- **CPU**: [AMD Ryzen AI 9 370 HX](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html)
+- **CPU**: [AMD Ryzen AI 9 HX 370](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html)
 - **GPU**: AMD Radeon 890M
 - **RAM**: 32 GB LPDDR5X
 - **Storage**: 1 TB NVME SSD
@@ -30,12 +30,12 @@ You can read the benchmark for this laptop on these websites:
 And here are other details about the laptop:
 - Unique material for the chassis — ASUS calls it "Ceraluminum", a portmanteau of "Ceramic" and "Aluminum". It feels like the surface of paper on metal.
 - 1.5 kg — Honestly, I never had a 16" laptop before, so I can't make comparisons. But my current opinion is the laptop feels quite lightweight.
-- Features [NPU](https://en.wikipedia.org/wiki/Neural_processing_unit) — which ASUS claims has 50 TOPS of power. A new processing unit inside the CPU intended to assist operations related to local AI inference.
+- Features [NPU](https://en.wikipedia.org/wiki/Neural_processing_unit) — which AMD claims has 50 [TOPS](https://www.ernestchiang.com/en/notes/general/tops-comparison-table-by-brand/) of power. A new processing unit inside the CPU intended to assist operations related to local AI inference.
 - HDMI port, 1 USB-A 3.2 port, 2 USB-C ports, SD card slot, 3.5 mm headphone jack
 - No NumPad
 
 # What I like
-- Beautiful, large screen — really helpful for coding. This is the first time I'm using a screen that has more refresh rate than 60 Hz. The first moment I saw the screen of this laptop was the same as when I first saw a game playing in 60fps. This also ruined me in a way; I think I will have difficulties going back to 60 Hz from now.
+- Beautiful, large screen — really helpful for coding and video/image editing. This is the first time I'm using a screen that has the combination of: 3K + OLED + refresh rate more than 60 Hz. The first moment I saw the screen of this laptop was the same as when I first saw a game playing in 60fps. This also ruined me in a way; I think I will have difficulties going back to 60 Hz from now.
 - Great performance — lowkey what drew me to buy this laptop for its price. More than capable of covering my working tasks which mostly consist of: compiling and managing containers using Docker, transpiling JS, playing video in a web browser, and transcoding video files.
 - Pretty, simple aesthetics — slightly resembles Apple MacBook 16 if the stickers are removed
 - Quiet fan
