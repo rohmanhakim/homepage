@@ -2,18 +2,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 960px;
 }
-main p, main li {
-  font-size: 1.2em;
-}
 footer {
   min-height: 100px;
 }
 .article-meta {
   text-align: start;
   background: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .title {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.2;
 }
 .header-container {
   display: flex;
@@ -36,7 +36,6 @@ footer {
   list-style: none;
   padding-left: 0;
   padding-right: 0;
-  font-size: 1.2em;
 }
 .post-titles li {
   padding-bottom: 8px;
