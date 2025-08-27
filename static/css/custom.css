@@ -5,6 +5,12 @@ body {
 footer {
   min-height: 100px;
 }
+pre {
+  border: 1px solid #ddd;
+  box-shadow: none;
+  padding: 1em;
+  overflow-x: auto;
+}
 .article-meta {
   text-align: start;
   background: transparent;
