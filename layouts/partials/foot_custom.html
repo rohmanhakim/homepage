@@ -20,9 +20,7 @@
   }
 
   function neuralizeChildrenColor(child, toTheme) {
-    console.log("=====> 1 " + toTheme)
     document.querySelectorAll(child).forEach(el => {
-      console.log("=====> 2 " + toTheme)
       el.style = toTheme == "dark" ? "filter: invert(1);" : ""
     })
   }
