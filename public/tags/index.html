@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/custom.css">
+<script data-goatcounter="https://arifrohman.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <div class="header-container">
   <h1><a href="/">Arif's Homepage</a></h1>
   <ul>
@@ -65,9 +66,7 @@
   }
 
   function neuralizeChildrenColor(child, toTheme) {
-    console.log("=====> 1 " + toTheme)
     document.querySelectorAll(child).forEach(el => {
-      console.log("=====> 2 " + toTheme)
       el.style = toTheme == "dark" ? "filter: invert(1);" : ""
     })
   }
