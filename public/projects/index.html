@@ -18,34 +18,6 @@
     </li>
   </ul>
   <button id="btn-switch-theme">Switch to dark Theme</button>
-  <script>
-    const btnSwitchTheme = document.getElementById("btn-switch-theme")
-
-    function getTheme() {
-      const cookies = Object.fromEntries(
-        document.cookie.split("; ").map(c => c.split("="))
-      );
-      return cookies.theme || "light";
-    }
-
-    function invertTheme(theme) {
-      return theme == "light" ? "dark" : "light"
-    }
-
-    function switchTheme(toTheme) {
-      btnSwitchTheme.textContent = "Switch to " + invertTheme(toTheme) + " theme"
-      document.querySelector("html").style = toTheme == "dark" ? "filter: invert(1);" : ""
-    }
-
-    btnSwitchTheme.addEventListener("click", (event) => {
-      const theme = getTheme()
-      const newTheme = invertTheme(theme)
-      document.cookie = "theme=" + newTheme + ";path=/"
-      switchTheme(newTheme)
-    })
-
-    switchTheme(getTheme())
-  </script>
 </div>
   </head>
 
@@ -68,7 +40,44 @@
 </main>
 
   <footer>
-  
+  <script>
+  const btnSwitchTheme = document.getElementById("btn-switch-theme")
+
+  function getTheme() {
+    const cookies = Object.fromEntries(
+      document.cookie.split("; ").map(c => c.split("="))
+    );
+    return cookies.theme || "light";
+  }
+
+  function invertTheme(theme) {
+    return theme == "light" ? "dark" : "light"
+  }
+
+  function applyTheme(toTheme) {
+    btnSwitchTheme.textContent = "Switch to " + invertTheme(toTheme) + " theme"
+    document.querySelector("html").style = toTheme == "dark" ? "filter: invert(1);" : ""
+    neuralizeChildrenColor("img", toTheme)
+    neuralizeChildrenColor(".highlight", toTheme)
+  }
+
+  function neuralizeChildrenColor(child, toTheme) {
+    console.log("=====> 1 " + toTheme)
+    document.querySelectorAll(child).forEach(el => {
+      console.log("=====> 2 " + toTheme)
+      el.style = toTheme == "dark" ? "filter: invert(1);" : ""
+    })
+  }
+
+  btnSwitchTheme.addEventListener("click", (event) => {
+    const theme = getTheme()
+    const newTheme = invertTheme(theme)
+    document.cookie = "theme=" + newTheme + ";path=/"
+    applyTheme(newTheme)
+  })
+
+  applyTheme(getTheme())
+</script>
   
   </footer>
   </body>
