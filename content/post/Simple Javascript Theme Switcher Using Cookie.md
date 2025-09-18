@@ -2,6 +2,15 @@
 title: Simple Javascript Theme Switcher Using Cookie
 date: 2025-08-27
 draft: false
+tags:
+  - javascript
+  - theme-switcher
+  - cookies
+  - css
+  - web-development
+categories: 
+  - tech
+description: Learn how to implement a simple dark/light theme switcher for your website using JavaScript and cookies, leveraging the CSS invert filter for quick theme toggling.
 ---
 
 As people become more aware of their eye health, dark theme has become so popular it almost becomes the standard color scheme for digital content nowadays, including blogs and static sites. Theme switching capability also becomes popular to be implemented on said media.

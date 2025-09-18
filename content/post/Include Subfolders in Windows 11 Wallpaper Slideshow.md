@@ -2,6 +2,15 @@
 title: "Include Subfolders in Windows 11 Wallpaper Slideshow"
 date: 2025-08-24
 draft: false
+tags:
+    - windows-11
+    - wallpaper
+    - slideshow
+    - powershell
+    - tutorial
+categories: 
+    - tech
+summary: "Learn how to include images from subfolders in your Windows 11 wallpaper slideshow by using a PowerShell script to create symbolic links."
 ---
 
 Windows 11 has a feature that enables us to change desktop wallpapers at specified intervals. However, by default, it only scans pictures in the root directory of our choice and doesn't allow us to include its subfolders. To change this, we need to make changes to the Windows 11 system.
